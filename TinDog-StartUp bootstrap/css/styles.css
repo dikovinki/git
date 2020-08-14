@@ -1,0 +1,183 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+
+p{
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading {
+  font-weight: 900;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+.section-heading {
+  font-weight: 700;
+font-size: 2.75rem;
+line-height: 1.5;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: all .5s;
+  }
+  .navbar-brand:hover{
+    transform: scale(1.15);
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight:300;
+  }
+
+  /* Buttons-Download */
+.button-download{
+  margin: 5% 3% 5% 0;
+}
+/* Title-image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features{
+  text-align: center;
+  margin: 50px auto;
+}
+.features-text {
+  font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.features-paragraph{
+  color: #8f8f8f;
+  padding: 0 15% 0 15%;
+}
+.icon{
+  font-size: 2.5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition: all .5s;
+}
+.icon:hover{
+  color: #ff4c68;
+  transform: scale(1.15);
+}
+/* Testimonials section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 17%;
+}
+.testimonials-dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px
+}
+.testimonial-text {
+  font-weight: 700;
+font-size: 2.75rem;
+line-height: 1.5;
+}
+#press{
+  background-color: #ef8172;
+padding-bottom: 3%;
+text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Cards */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+  }
+.price-text {
+  font-weight: 700;
+font-size: 2.75rem;
+line-height: 1.5;
+}
+.dogs-name {
+  font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+/* Call to Action */
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+/* Footer */
+#footer {
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+  color: #8f8f8f;
+}
+.social-icon {
+  color: #343A40;
+  padding: 20px 15px;
+}
+.back-to-top {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+
+.back-to-top:hover {
+  text-decoration: none;
+  color: #343A40;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
