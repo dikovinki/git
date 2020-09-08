@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {color: #865da2;
+}
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+@font-face {
+	font-family: 'Parisienne', cursive;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+}
+.maintittle {
+	font-family: 'Parisienne', cursive;
+	color: whitesmoke;
+}
+
+.hero {
+	background-image: url(../images/Hero_image.jpg);
+	height: 500px;
+	min-height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+a {
+	color: #865da2;
+}
+a:hover {
+	color: #1C6EFF;
+}
+h2,
+h3,
+h4 {
+	font-family: parisienne;
+	color: #865da2;
+}
+h1 {
+	font-family: montserrat;
+	color: #865da2;
+}
+.card-title {
+	font-family: parisienne;
+	color: #865da2;
+	font-size: 30px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #865da2;
+	border-color: #865da2;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #5D2D7D;
+	border-color: #5D2D7D;
+}
