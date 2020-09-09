@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}.navbar-dark .navbar-nav .nav-link {color: #c4602c;
+}
+a {
+	color: #c4602c;
+}
+a:hover {
+	color: #345c7b;
+}
+.hero {
+	background-image: url(../images/Hero.jpg);
+	height: 500px;
+	min-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+}
+h1 {
+	font-family: "spirax";
+}
+h2,h4 {
+	font-family: "spirax";
+	color: #345c7b;
+}
+.btn-primary {
+	
+	color: #fff;
+	background-color: #345c7b;
+	border-color: #345c7b;
+}
+.btn-primary:hover {
+	
+	color: #fff;
+	background-color: #5a9fa5;
+	border-color: #5a9fa5;
+}
+.btn-secondary {
+	
+	color: #fff;
+	background-color: #345c7b;
+	border-color: #345c7b;
+}
+.btn-secondary:hover {
+	
+	color: #fff;
+	background-color: #5a9fa5;
+	border-color: #5a9fa5;
+}
+.map-responsive {
+	overflow:hidden;
+	padding-bottom: 25%;
+	position: relative;
+	height: 0;
+}
+.map-responsiveiframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
